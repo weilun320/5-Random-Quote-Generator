@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.button-container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+#quote-button {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+  transition: all 0.25s ease-in-out;
+}
+
+#quote-button:hover {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.quote-container {
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#image {
+  height: 200px;
+  object-fit: cover;
+  width: 150px;
+}
+
+#quote {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#author {
+  font-size: 32px;
+  font-style: italic;
+}
